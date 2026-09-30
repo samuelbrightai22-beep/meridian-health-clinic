@@ -2,6 +2,9 @@
   "name": "meridian-health-clinic",
   "version": "0.2.1",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev -p 3000 2>&1 | tee dev.log",
     "build": "next build",
